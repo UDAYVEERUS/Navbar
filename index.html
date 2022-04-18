@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            color: yellow;
+        }
+        #container{
+            height: auto;
+            width: 70%;
+            padding-left:20px;
+            padding-right: 20px;
+            margin: auto;
+            color: white;
+            background-color: black;
+            justify-content: space-between;
+            display: flex;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            border:1px black solid;
+            margin-top: 30px;
+        }
+        #div2{
+            display: flex;
+            gap: 30px;
+        }
+        select{
+            background-color: black;
+            border: none;
+            color: white;
+            font-size: 18px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: yellow;
+        }
+        #div2>div{
+            font-size: 18px;
+            margin: auto;
+        }
+        #div1{
+            font-size:20px;
+        }
+        @media all and (min-width:450px) and (max-width:850px){
+            #container{
+            height: auto;
+            width: 90%;
+            padding-left:10px;
+            padding-right: 10px;
+            margin: auto;
+            justify-content: space-between;
+            display: flex;
+        }
+        #div1{
+            font-size:15px;
+        }
+        #div2{
+            gap: 20px;
+        }
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="div1"><h5>Udayveer singh</h5></div>
+        <div id="div2">
+            <div><p>Home</p></div>
+            <div><p>contact</p></div>
+            <div><p>mobile</p></div>
+            <div><select><option disabled selected>page</option></select></div>
+        </div>
+    </div>
+</body>
+</html>
